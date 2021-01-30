@@ -1,0 +1,22 @@
+
+
+.parent{
+    border: 1px solid black;
+    background-color: blue;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:repeat(8,auto);
+    
+
+}
+
+.child{
+
+    padding: 10px;
+    border: 1px solid blueviolet;
+
+}
+
+.alf{
+    text-align: center;
+}
