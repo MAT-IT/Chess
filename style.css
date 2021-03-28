@@ -2,7 +2,6 @@
 
 .parent{
     border: 1px solid black;
-    background-color: blue;
     padding: 10px;
     display: grid;
     grid-template-columns:repeat(8,auto);
@@ -11,12 +10,14 @@
 }
 
 .child{
-
+    background-color:brown;
     padding: 10px;
     border: 1px solid blueviolet;
 
 }
-
+.cild1{
+   background-color: black; 
+}
 .alf{
     text-align: center;
 }
