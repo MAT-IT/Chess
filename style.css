@@ -1,23 +1,55 @@
-
-
-.parent{
-    border: 1px solid black;
-    padding: 10px;
-    display: grid;
-    grid-template-columns:repeat(8,auto);
+body{
+    background-image: url(resim2.jpg);
+   
+}
+.container{
     
-
+    
+    margin-left: 450px;
 }
 
-.child{
-    background-color:brown;
-    padding: 10px;
-    border: 1px solid blueviolet;
 
-}
-.cild1{
-   background-color: black; 
-}
-.alf{
+.chess{
+    
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(9, 80px);
+    grid-template-rows: repeat(9, 80px);
     text-align: center;
+    line-height: 80px;
+}
+
+.koyu{
+    background-color:#4a4e69;
+    
+}
+
+.acik{
+    background-color:#f0efeb;
+}
+
+
+.alan{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ade8f4;
+    font-size: 80px;
+    
+}
+
+
+.yan-alan{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ade8f4;
+    font-size: 40px;
+    line-height: 80px;
+    
+    
+}
+
+.kenar{
+    background-color: #052963;
+    
 }
