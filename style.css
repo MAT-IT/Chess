@@ -1,5 +1,6 @@
 body{
-    background-image: url(resim2.jpg);
+    background-color:burlywood;
+
    
 }
 .container{
@@ -22,11 +23,12 @@ body{
 
 .koyu{
     background-color:#4a4e69;
-    
+    margin: 10px;
 }
 
 .acik{
     background-color:#f0efeb;
+    margin: 10px;
 }
 
 
@@ -35,6 +37,7 @@ body{
     height: 80px;
     border: 1px solid #ade8f4;
     font-size: 80px;
+    margin: 10px;
     
 }
 
@@ -45,11 +48,13 @@ body{
     border: 1px solid #ade8f4;
     font-size: 40px;
     line-height: 80px;
+    margin: 10px;
     
     
 }
 
 .kenar{
     background-color: #052963;
+    margin: 10px;
     
 }
